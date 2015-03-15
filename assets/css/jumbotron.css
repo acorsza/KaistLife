@@ -1,0 +1,249 @@
+body {
+    padding-top: 50px;
+}
+
+.home {
+    background-image: url('../img/kibd_r.jpg');
+    background-size:100% 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.jumbotron p{
+    font-size: 24px;
+}
+
+.home_row {
+    background-color:rgba(255,255,255,0.3);
+    border: 0px solid #fff;
+    border-radius: 17px;
+}
+
+.home_box {
+    letter-spacing:2px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #222;
+    font-weight:bold;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 22px;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.list-group a {
+    font-size: 12px;
+}
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    background-color:#DEDEDE;
+    border: 0px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+    bottom: 0;
+}
+footer p{
+    margin: 0px;
+    font-weight: bold;    
+}
+
+.home_slogan {
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-weight: bold;
+
+}
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 72px;
+}
+
+.user_answer {
+    font-size: 10px;
+    font-weight: bold;    
+} 
+
+.col-md-8 {
+    height: 100%;
+}
+
+.user-info-pos{
+    margin-top:50px;
+}
+
+.cnt-main-content-user{
+     position: relative;
+     float: left;
+}
+
+
+.cnt-my-topics{
+    float: right;
+    position: relative;
+
+}
+
+.cnt-user-2{
+     border: 0px solid #ddd;
+     padding-left: 0px;
+     padding-right: 0px;
+     position: relative;
+     height: 600px;
+     width: 320px;
+     border-radius: 10px;
+}
+
+.msg-sucsess-user{
+    background-color: #66FF66;
+    margin-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    opacity: 0;
+    text-align: center;
+}
+
+.msg-danger-user{
+    /*background-color: #FF0033; */
+    margin-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    opacity: 0;
+    text-align: center;
+}
+
+.bnt-save-user{
+    background-color: #428BCA;
+    color: white;
+    width: 130px;
+}
+
+.bnt-save-user:hover{
+    background-color: #39B3D7;
+    color: white;
+}
+
+.bnt-cancel-user{
+    background-color: #428BCA;
+    color: white;
+    width: 130px;
+    margin-left: 5px;
+}
+
+.bnt-cancel-user:hover{
+    background-color: #39B3D7;
+    color: white;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.cnt-bnt-save-cancel{
+    margin-top: 10px;
+}
+
+.alt-pass-usr-perf{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.change-password{
+    display: none;
+    margin-top: 15px;
+}
+
+.welcome {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
+
+.btn-text {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.kaist {
+    color: #464C91;
+}
+
+.reply {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #9C9C9C;
+    background-color: #DEDEDE;
+    border-color: #9C9C9C;
+    margin-bottom: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 24px;
+    line-height: 1;
+    border-radius: 4px;
+    letter-spacing:1px
+}
+
+.yellow {
+    color: red;
+
+    
+}
+span.glyphicon-fire {
+    font-size: 3em;
+}
+
+.text_answer {
+    width: 85%;
+}
+
+.answer_first {
+    margin-left: 70px;
+    width: 75%;
+}
+
+.my_bar {
+    width: 80px;
+    margin-top: -20px;
+}
+
+.my_bar a {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.col-md-8 {
+    min-height: 500px;
+}
